@@ -1,0 +1,261 @@
+a{
+    text-decoration: none;
+}
+.menu{
+    float: left;
+    width: 65%;
+}
+.menu li{
+    float: left;
+    width: 12%;
+
+}
+.timkiem{
+    display:none;
+    width: 100%;
+    height: 100%;
+    border:1px solid #ccc;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1999;
+    background: #0b0b0b; opacity: .8;
+}
+.iptimkien{
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: #fff;
+    float: right;
+    padding-right: 28px;
+}
+.iptimkien2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 276px;
+}
+.i{
+    color: #fff;
+    padding-top: 5px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu li a {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0 19px;
+    font-size: medium;
+}
+.menu li a span {
+    color: #fff;
+}
+.cla label {
+    padding-top: 1px;
+    padding-left: 3px;
+}
+.menu li:hover {
+    background-color: rgb(243, 167, 167);
+}
+.search-sp {
+    display: inline-block;
+    vertical-align: middle;
+    background: #2f3033;
+    border-radius: 100%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.search-sp i{
+    color: #fff;
+}
+.cart {
+    display: inline-block;
+    vertical-align: middle;
+    background: #2f3033;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 0 0 0 10px;
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+.cart i{
+    color: #fff;
+}
+/* .NgocQuang-logo {
+    background: url(./component/img/Leonn\ \(1\).png) no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    width: 150px;
+    height: 43px;
+} */
+
+/* Phần css của Footer */
+.foot {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 1024px;
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
+.list-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-bottom: 1px solid #333;
+    padding: 0 0 30px;
+}
+.list-foot li:first-child {
+    width: 30%;
+}
+.list-foot li{
+    float: left;
+}
+.list-foot li span {
+    display: block;
+    overflow: hidden;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 0 8px;
+    font-weight: 500;
+}
+.list-foot li a{
+    padding-bottom: 10px;
+    display: block;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0 0 10px;
+    color: #e5e5e5;
+}
+.list-foot li a {
+    display: block;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 0 0 10px;
+    color: #e5e5e5;
+}
+.list-foot li a:hover{
+    color: rgb(124, 197, 221);
+}
+.list-foot li a span {
+    display: inline-block;
+    width: 68px;
+    padding: 0;
+    font-size: 13px;
+    line-height: 18px;
+    overflow: unset;
+}
+.footer-social .link-social {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 9px;
+}
+.link-social {
+    display: inline-block;
+    vertical-align: middle;
+    background: #2f3033;
+    border-radius: 100%;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+   
+}
+.logo-foot {
+    display: flex;
+    overflow: hidden;
+    padding: 30px 0;
+   
+}
+.text-cpr {
+    display: inline-block;
+    overflow: hidden;
+    padding: 22px 0;
+    max-width: 60%;
+}
+.text-cpr p {
+    display: block;
+    overflow: hidden;
+    font-size: 11px;
+    line-height: 14px;
+    color: #666;
+}
+.logo-cate.cate-christmas {
+    background: url(./component/img/Deo.jpg);
+    border: 1px solid ;
+    border-radius: 20px;
+    width: 380px;
+    height: 95px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo-cate h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 62px;
+    font-family: SF Pro Display,sans-serif;
+}
+.Quang11 .logo-cate {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto 60px;
+    text-align: center;
+    
+}
+.cate-christmas h2 {
+    width: 100%;
+    text-align: center;
+}
+.Quang11 .logo-cate h2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 62px;
+    font-family: SF Pro Display,sans-serif;
+}
+.Quang11 {
+    display: block;
+    overflow: hidden;
+    margin: 0 auto 80px;
+}
+/* phan content iphone */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding: 15px 10px;
+  }
+  .grid-container .backgr-ip {
+    background-color: #383b3d;
+    padding: 10px 17px;
+    border-radius: 10px;
+    width: 240px;
+    height: auto;
+    
+  }  
+.timkiem{
+    background-color: coral;
+    border: coral;
+    width: 38px;
+    height: 39px;
+    margin-left: -6px;
+}
+.onhap{
+    height: 39px;
+    width: 292px;
+    padding-bottom: 3px;
+}  
