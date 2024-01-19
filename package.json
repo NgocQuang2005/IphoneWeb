@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://NgocQuang2005.github.io/IphoneWeb/", 
+  "homepage": "https://ngocquang2005.github.io./IphoneWeb/", 
   "type": "module",
   "scripts": {
     "dev": "vite",
