@@ -20,6 +20,7 @@ const Header = () => {
           <a href="/Home" className="pr-2  mr-[10px]"><img src={logo} className='bg-auto	bg-center	 h-[43px] w-[150px]' alt="" /></a>
           <a href="/Home"><img src={logo1} alt="" className='bg-auto	bg-center	 h-[43px] w-[65px]'/></a>
         </div>
+        {/* Navigation */}
         <ul className='menu'>
         {
            navigations.map((item)=>{
